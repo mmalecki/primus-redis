@@ -1,6 +1,6 @@
 {
   "name": "primus-redis-with-auth",
-  "version": "0.1.1-1",
+  "version": "0.1.1-2,
   "description": "Redis plugin for Primus with Redis Authentication",
   "dependencies": {
     "redis": "0.9.x",
