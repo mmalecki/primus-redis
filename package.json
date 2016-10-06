@@ -7,9 +7,11 @@
     "redis-sentinel": "^0.0.0 || ^0.1.0 || ^0.2.0 || ^0.3.0"
   },
   "devDependencies": {
+    "assert-called": "~0.1.2",
     "primus": "1.4.x",
-    "ws": "0.4.x",
-    "assert-called": "~0.1.2"
+    "redis": "^2.6.2",
+    "redis-sentinel": "^0.3.3",
+    "ws": "0.4.x"
   },
   "repository": {
     "type": "git",
