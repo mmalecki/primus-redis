@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "assert-called": "~0.1.2",
-    "primus": "1.4.x",
+    "primus": "^5.2.2",
     "redis": "^2.6.2",
     "redis-sentinel": "^0.3.3",
     "ws": "0.4.x"

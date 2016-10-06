@@ -12,13 +12,15 @@ var server = http.createServer(),
 function getPrimus() {
   var server = http.createServer();
   var primus = new Primus(server, {
+    plugin: {
+      Redis: PrimusRedis
+    },
     redis: {
       host: 'localhost',
       port: 6379
     },
     transformer: 'websockets'
   });
-  primus.use('Redis', PrimusRedis);
   server.listen(PORT++);
   return primus;
 }
